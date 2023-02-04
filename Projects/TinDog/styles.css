@@ -112,11 +112,57 @@ h2{
 
 .press-logo{
     width: 15%;
-    margin: 20px 20px 50px
+    margin: 20px 20px 50px;
 }
 
 /* pricing */
 
-.card{
-    margin: 10px 30px;
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.button-block{
+    width: 100%;
+    text-align: center;
+    height: 45px;
+}
+
+
+/* call to action */
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    text-align: center;
+    font-family: 'Montserrate', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+        transform: rotate(0);
+    }
 }
